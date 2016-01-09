@@ -1,0 +1,25 @@
+/* All Div Style
+====================================*/
+
+.all-divs {
+  border: solid skyblue 1px;
+  height: auto;
+  padding: 5px;
+}
+
+.container {
+  float: right;
+  height: auto;
+  width: 45%;
+}
+
+/* Explanation
+====================================*/
+
+.explanation {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  height: auto;
+  background-color: #cccccc;
+}
