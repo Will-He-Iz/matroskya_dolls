@@ -1,8 +1,16 @@
+/* Typeography
+====================================*/
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+
 /* All Div Style
 ====================================*/
 
 .all-divs {
-  border: solid skyblue 1px;
+  border: none;
   height: auto;
   padding: 5px;
 }
@@ -11,6 +19,44 @@
   float: right;
   height: auto;
   width: 45%;
+}
+
+.absolute {
+  float: left;
+  width: 45%;
+}
+
+#div-before {
+  background-color: #E5A9FF;
+
+}
+
+#div-after {
+  background-color: #E5A9FF;
+
+}
+
+
+#div-1 {
+  background-color: #cccccc;
+  position: relative;
+  top: 30px;
+  left: -40px;
+}
+
+#div-1a {
+  background-color: tomato;
+
+}
+
+#div-1b {
+  background-color: lightgreen;
+
+}
+
+#div-1c {
+  background-color: #FFA974;
+
 }
 
 /* Explanation

@@ -2,23 +2,40 @@
 <html>
 <head>
   <title>matroskya dolls</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   <link href="my_style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
-  <div class="explanation">
-    <p>
-      Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsum
-    </p>
-  </div>
-<div class="container">
+<!-- Relative -->
+<div class="absolute">
+  <h2>Relative Positioning</h2>
+  <p>
+    Relative positioning keeps the element in its original position.  The space it would normally be is still occupied.  However, it gives you the abiilty to use the positining commands to change
+    where it will display.  Note that the original space will still be occupied so elements around the object will not adjust.
+  </p>
+  <br>
+  <br>
+  <p>
+    div-1 {
+      background-color: #cccccc;
+      position: relative;
+      top: 30px;
+      left: -40px;
+    }
+  </p>
+</div>
+<!-- Relative end -->
+
+
+<div class="container col-xs-7">
   <div id="div-before" class="all-divs">
     <p>id= div-before</p>
   </div>
 
   <div id="div-1" class="all-divs">
     <p>id = div-1</p>
-  </div>
+
 
   <div id="div-1a" class="all-divs">
     <p>id = div-1a</p>
@@ -37,11 +54,13 @@
   <div id="div-1c" class="all-divs">
     <p>id = div-1c</p>
   </div>
+</div>
 
   <div id="div-after" class="all-divs">
     <p>id = div-after</p>
   </div>
 </div>
+
 
 </body>
 </html>
